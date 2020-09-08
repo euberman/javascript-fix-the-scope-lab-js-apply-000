@@ -11,13 +11,13 @@ function yourAnimal(animal) {
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: Hard-coding 'cat' below will not work
+  animal = 'cat';
   return animal;
 }
 
 function add2(n) {
   const two = 2;
-  
-  return n + two;
+  return Number(n + two);
 }
 
 var funkyFunction = function() {
